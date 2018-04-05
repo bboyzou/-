@@ -7,22 +7,17 @@
 <title>测试SpringMVC</title>
 </head>
 <body>
-	<form action="regist" method="POST">
+	<form action="log" method="POST">
 		<table>
 			<tr>
 				<td><label>账号:</label></td>
-				<td><input type="text" required="required" id="username"
-					name="username"></input></td>
+				<td><input type="text" required="required" id="sid"
+					name="sid"></input></td>
 			</tr>
 			<tr>
 				<td><label>密码:</label></td>
-				<td><input type="text" required="required" id="password1"
-					name="password1"></input></td>
-			</tr>
-			<tr>
-				<td><label>确认密码密码:</label></td>
-				<td><input type="text" required="required" id="password2"
-					name="password2"></input></td>
+				<td><input type="text" required="required" id="password"
+					name="password"></input></td>
 			</tr>
 			<tr>
 				<td><input id="submit" type="submit" value="确认注册？"></td>
