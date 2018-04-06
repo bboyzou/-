@@ -11,8 +11,8 @@
 		<table>
 			<tr>
 				<td><label>账号:</label></td>
-				<td><input type="text" required="required" id="sid"
-					name="sid"></input></td>
+				<td><input type="text" required="required" id="id"
+					name="id"></input></td>
 			</tr>
 			<tr>
 				<td><label>密码:</label></td>
