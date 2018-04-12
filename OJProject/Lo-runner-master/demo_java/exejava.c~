@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main()
+{
+	char *argv[] = {"java","Main",NULL};
+	if(execvp("java",argv) != 0)
+		print("failed");
+	else
+		print("over");
+	return 0;
+}
